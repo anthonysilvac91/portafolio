@@ -1,56 +1,41 @@
-.contenedor {
-  background-color: black;
-  padding-top: 100px;
-  padding-left: 20px;
-  padding-bottom: 100px;
-  padding-right: 20px; }
-
-.saludo {
-  width: 100%;
-  height: 100px;
-  background-color: aqua;
-  margin-bottom: 10px; }
-
-.principal {
-  width: 100%;
-  background-color: beige;
-  margin-bottom: 10px; }
-  .principal .div {
-    display: flex; }
-    .principal .div .nombre {
-      width: 60%;
-      height: 300px;
-      background-color: aquamarine; }
-    .principal .div .menu {
-      width: 40%;
-      height: 300px;
-      background-color: blue; }
-  .principal .bio {
-    width: 100%;
-    height: 100px;
-    background-color: yellow; }
-
-.redes {
-  width: 50%;
-  height: 100px;
-  background-color: palegreen;
-  margin-bottom: 10px; }
-
-.lenguaje {
-  width: 100%;
-  height: 200px;
-  background-color: brown; }
-
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box; }
 
 body {
-  font-family: 'Space Mono', monospace; }
+  font-family: 'Space Mono', monospace;
+  background-color: #111418; }
 
 a {
   text-decoration: none; }
 
 ul {
   list-style: none; }
+
+.contenedorLanding {
+  padding-top: 100px;
+  padding-left: 50px;
+  padding-bottom: 100px;
+  padding-right: 50px; }
+  .contenedorLanding h2 {
+    color: #30D153; }
+  .contenedorLanding h1 {
+    color: #f8f9fa;
+    font-size: 70px; }
+  .contenedorLanding .bioContainer .bioCard {
+    display: flex; }
+    .contenedorLanding .bioContainer .bioCard .bioName {
+      width: 50%; }
+    .contenedorLanding .bioContainer .bioCard .bioMenu {
+      width: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+      padding-right: 2%; }
+      .contenedorLanding .bioContainer .bioCard .bioMenu ul {
+        display: flex; }
+        .contenedorLanding .bioContainer .bioCard .bioMenu ul li {
+          color: #f8f9fa;
+          font-size: 1.5rem;
+          padding: 10px; }
